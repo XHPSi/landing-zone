@@ -20,3 +20,15 @@ The `unzip` directory contains the up-to-date landingzone files extracted from t
 
 You can download the zip-files yourself using the `downloadLandingZones.sh` shell-script. The script downloads all resources, including those who had typos.
 
+## Warnings
+
+Be aware that setting up a Landing Zone is no trivial task. AWS recommends that AWS ProServe or an AWS Partner setup Landing Zones. That said, it is possible to setup and manage a Landing Zone yourself if you're up for a lot of heavy reading, understanding, and troubleshooting. These are the four sources of truth for Landing Zone that do not expire. They are updated regularly, so setup a URL monitor to make sure you're working off of the latest versions.
+
+http://www.awslandingzone.com/guides/aws-landing-zone-implementation-guide.pdf
+http://www.awslandingzone.com/guides/aws-landing-zone-developer-guide.pdf
+http://www.awslandingzone.com/guides/aws-landing-zone-user-guide.pdf
+http://www.awslandingzone.com/guides/aws-landing-zone-upgrade-guide.pdf
+
+The better route for most folks is to use Control Tower to manage your Landing Zone.
+
+https://aws.amazon.com/controltower/
